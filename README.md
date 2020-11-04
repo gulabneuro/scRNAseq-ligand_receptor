@@ -22,5 +22,5 @@ ME_receptors.csv
 <i>AverageExpression of receptor genes in each cell cluster from the ME</i>
 
 
-LRs_plusECs_astros_new.csv
+LRs.csv
 <i> ligand-receptor database </i>
