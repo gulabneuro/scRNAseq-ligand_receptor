@@ -3,7 +3,7 @@
 Files key:
 
 merge2_averages.csv
-<i>AverageExpression of each gene in each cell cluster
+<i>AverageExpression of each gene in each cell cluster. 
 For calculation of null distribution of IS values for significance calculation</i>
 
 cortex_ligands.csv
