@@ -2,6 +2,9 @@
 
 Files key:
 
+IS.R
+<i> interaction score calculation </i>
+
 merge2_averages.csv
 <i>AverageExpression of each gene in each cell cluster. 
 For calculation of null distribution of IS values for significance calculation</i>
