@@ -3,10 +3,10 @@
 Files key:
 
 IS.R
-<i> interaction score calculation </i>
+<i> interaction score calculation and heatmap plotting functions </i>
 
-merge2_averages.csv
-<i>AverageExpression of each gene in each cell cluster. 
+complete_dataset.csv.gz
+<i>AverageExpression of each gene in each cell subcluster. 
 For calculation of null distribution of IS values for significance calculation</i>
 
 cortex_ligands.csv
