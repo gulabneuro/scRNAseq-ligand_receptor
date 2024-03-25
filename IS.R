@@ -91,7 +91,7 @@ LRs=read.csv('LRs.csv')
 complete_dataset_merge=read.csv('complete_dataset.csv',row.names=1)
 
 #calculate IS for cortex cECs and pericytes
-EC_ligand=IS(cortex_ligands, cortex_receptors, 'cECs.1', 'pericytes.1',LRs,complete_dataset_merge, 100)
+EC_ligand=IS(cortex_ligands, cortex_receptors, 'cECs.1', 'pericytes.1',LRs,complete_dataset_merge, 1000)
 
 #plot IS for cortex cECs ligands with pericyte and astrocyte receptors
-IS_heatmap(cortex_ligands, cortex_receptors[,c('pericytes.1','cortex.astrocytes')], 'cECs.1',LRs$Pair_Name, 100)
+IS_heatmap(cortex_ligands, cortex_receptors[,c('pericytes.1','cortex.astrocytes')], 'cECs.1',LRs$Pair_Name, 1000)
